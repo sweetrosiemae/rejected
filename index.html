@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inspirational Rejection</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="headerContainer">
+                <h1>Inspirational Rejections</h1>
+                <h2>So you've been rejected? Let's make light of it</h2>
+                <i class="fas fa-caret-down blink"></i>
+            </div>
+            <div class="audioContainer">
+                <audio src="./assets/In The Arms Of An Angel lyrics.mp3" controls></audio>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="wrapper">
+            <div class="denialGenerator">
+                <h2>"It's hard at the end of the day" - Sarah McLachlan</h2>
+                <button id="generatorButton">Generate an Inspirational Rejection</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <form name="submitRejection">
+                <h2>Have you received a rejection you'd like to share? Submit anonymously here:</h2>
+                <textarea cols="150" rows="50" id="message" name="message" class="message"></textarea>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
