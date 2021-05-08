@@ -183,7 +183,7 @@ a:focus {
 
 @media (max-width: 415px) {
     .headerContainer {
-        height: 40vh;
+        height: 80vh;
     }
 
     h1 {
